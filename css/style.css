@@ -1,0 +1,149 @@
+*{
+  /*Escolhendo a fonte*/
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /*Tirar sublinhado dos links*/
+  text-decoration:none ;
+  /*Tirar a bolinha da frente dos links*/
+  list-style:none;
+  /*margin: 0px;
+  padding:0px;*/
+}
+
+body{  
+background-color:#aaa;
+}
+
+h1{  
+  margin-top:10px;
+  color: rgba(94, 1, 65, 0.786);
+  border: solid 3px; 
+  border-radius:25px;
+  padding:10px 15px;
+}
+
+
+/* Alinhando o cabeçalho */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+/* Colocar os itens do menu na horizontal */
+.menu{ 
+  display:flex;
+ margin-left:20px;
+ margin-top: 12px;
+}
+
+/* De espaço entre os itens do menu */
+.menu li{ 
+  padding-left:30px;
+}
+
+.main{ 
+  background-color: rgba(94, 1, 65, 0.786);
+  padding-bottom: 5px;
+}
+
+.main p{ 
+  padding: 0px 15px;
+}
+
+.container{
+  display: flex;
+}
+
+.amarela{
+  background-color: rgb(253, 253, 95);
+  border: solid 1px transparent;
+  border-radius:25px;
+  margin:20px 150px;  
+}
+
+.amarela p{
+  text-align:center;
+  font-weight: 50px;
+}
+
+.card{
+  border: solid 1px rgb(209, 209, 209);
+  margin: 10px;
+  padding:10px 5px 10px 15px;
+}
+
+.card img{
+  width: 270px;
+  height:190px;
+}
+
+article{
+  display: flex;
+  margin-left: 10px;
+  margin-right:10px;
+}
+
+.foto-vaidade{ 
+  padding-right: 15px;
+}
+
+.artigo{ 
+  padding-left: 15px;
+}
+
+#depoimento{ 
+  background-color: rgba(2, 110, 205, 0.633);
+  padding-bottom: 5px;
+}
+
+h4{ 
+  text-align: center;
+  margin-top:10px;
+}
+
+#depoimento h2{ 
+  padding-top: 20px;
+  text-align: center;
+  color:rgba(94, 1, 65, 0.786);
+}
+
+.depoimento{
+  display: flex;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:25px;
+}
+
+.opiniao img{
+  border-radius: 100%;
+  width:260px;
+  height:280px;
+}
+
+.estrela{ 
+  text-align: center;
+  color:rgb(253, 253, 95);
+}
+
+.voltar{ 
+  text-align: right;
+  margin-right: 15px;
+}
+
+/* RODAPÉ */
+span{
+  background-color:red;
+  padding: 10px;
+  border-radius:5px;
+  color:white;
+ }
+
+footer{
+  background-color:rgb(85, 62, 2);
+  padding:10px;
+}
+
+.rodape{ 
+  text-align:center;
+  color:white;
+}
