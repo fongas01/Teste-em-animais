@@ -9,7 +9,44 @@
   padding:0px;*/
 }
 
+body{ 
+  background-color:rgb(150, 150, 251);
+}
 
+
+/* Usando GRID */
+.container{ 
+  display:grid;
+  /* Definir o tamanho das colunas */
+  /* o valor aplicado será a quantidade de colunas dividindo a tela 
+  (neste caso fiz 4 colunas com 8 divs*/
+  grid-template-columns: 300px 300px 300px 300px ;
+  /* Declarar espaçamento entre as colunas */
+  gap: 20px;
+  /* Centralizar o container*/
+  justify-content: center;
+}
+
+.item{ 
+  background-color: rgba(94, 1, 65, 0.786);
+  border-radius:10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.item p{ 
+  color: rgb(11, 0, 0);
+  padding-bottom: 15px;
+}
+
+.item a{
+  border: solid 1px transparent;
+  padding:5px 30px;
+  border-radius:5px;
+  background-color:  rgb(253, 253, 95);
+  /* Centralizar o link */
+
+}
 
 
 
