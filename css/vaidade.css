@@ -10,17 +10,48 @@
 }
 
 
+body{ 
+  background-color:rgb(150, 150, 251);
+}
 
+h2{ 
+  margin-top: 30px;
+  text-align: center;
+  /*text-decoration: underline; = sublinhar no texto*/
+}
+.recorte img{ 
+  width: 615px;
+  height: 300px;
+}
 
+/* Usando GRID */
+.container{ 
+  display:grid;
+  /* Definir o tamanho das colunas */
+  /* o valor aplicado será a quantidade de colunas dividindo a tela 
+  (neste caso fiz 4 colunas com 8 divs*/
+  grid-template-columns:1fr 1fr;
+  margin-left: 20px;
+}
 
+figure{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 334px;
+  height:150px;
+}
 
-
-
-
-
+figcaption{text-align: center; font-size: 12px;}
 .voltar{ 
   text-align: right;
   margin-right: 15px;
+}
+
+video{ 
+  width: 650px;
+  margin:0 auto;
+  display: block;
 }
 
 /* RODAPÉ */
