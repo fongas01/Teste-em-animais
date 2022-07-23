@@ -9,8 +9,58 @@
   padding:0px;*/
 }
 
+h1{
+ text-align:center;
+}
+
+body{
+  /*background-image: url('/img/images-bg.jfif');
+  background-repeat:no-repeat;
+  background-position:1240px;
+  background-attachment: fixed;*/
+}
+
+.container img{
+  width:210px;
+  height:195px;
+  border-radius:35px;
+  padding-top: 20px;
+}
+
+/* Usando GRID */
+.container{ 
+  display:grid;
+  /* Definir o tamanho das colunas */
+  /* o valor aplicado será a quantidade de colunas dividindo a tela 
+  (neste caso fiz 4 colunas com 8 divs*/
+  grid-template-columns: 1fr 1fr 1fr ;
+  /* Declarar espaçamento entre as colunas */
+  gap: 10px;
+  text-align: center;
+}
+
+.midias{
+  text-align: center;
+}
+
+.card{ 
+  border: solid 1px rgb(110, 6, 6);
+  height:40%;
+}
 
 
+
+
+.voltar{ 
+  text-align: right;
+  margin-right: 15px;
+}
+
+.midias img{ 
+  width: 40px;
+  height:40px;
+  border-radius: 100%;
+}
 
 
 
